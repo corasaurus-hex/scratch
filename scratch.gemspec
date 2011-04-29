@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Easily use and manage scratch files for throwaway programming.}
   s.description = %q{Easily use and manage scratch files for throwaway programming.}
 
-  s.rubyforge_project = "scratch"
+  s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
